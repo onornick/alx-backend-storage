@@ -4,7 +4,7 @@
 -- Context: Nothing related to MySQL, but perfect for user email
 -- validation - distribute the logic to the database itself!
 
-DELIMITER;
+DELIMITER $$
 
 CREATE TRIGGER reset_valid_email
 BEFORE UPDATE ON users
